@@ -6,9 +6,10 @@ import { AppComponent } from './app.component';
 import { HelloComponent } from './hello.component';
 
 import { SharedModule } from './shared/shared.module';
+import { Module1Module } from './module-1/module-1.module';
 
 @NgModule({
-  imports:      [ BrowserModule, FormsModule, SharedModule ],
+  imports:      [ BrowserModule, FormsModule, SharedModule, Module1Module ],
   declarations: [ AppComponent, HelloComponent ],
   bootstrap:    [ AppComponent ]
 })
