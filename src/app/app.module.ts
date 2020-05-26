@@ -7,10 +7,11 @@ import { HelloComponent } from './hello.component';
 
 import { SharedModule } from './shared/shared.module';
 import { Module1Module } from './module-1/module-1.module';
+import { ButtonComponent } from './button/button.component';
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule, SharedModule, Module1Module ],
-  declarations: [ AppComponent, HelloComponent ],
+  declarations: [ AppComponent, HelloComponent, ButtonComponent ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
