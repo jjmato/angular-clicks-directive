@@ -10,7 +10,7 @@ import { ClicksDirective } from './clicks.directive';
     ClicksDirective
   ],
   exports: [
-    ClicksDirective
+    ClicksDirective 
   ]
 })
-export class SharedModule { }  
+export class Module1Module { }
